@@ -1,0 +1,21 @@
+.searchArea{
+text-align:center;
+}
+.searchBox{
+height: 30px;
+width: 20em;
+transition: all .6s ease;
+border-bottom:2px solid #166088;
+border-right:none;
+border-left:none;
+border-top:none;
+// border-radius:0px;
+
+}
+.searchBox:focus{
+outline: none;
+}
+
+.btn {
+color: #166088;
+}

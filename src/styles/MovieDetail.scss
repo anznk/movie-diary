@@ -1,0 +1,85 @@
+$textarea_color: white; 
+.detailBody{
+	// width: 90%;
+	margin: 50px 20% 0;
+	// margin-top:50px;
+	text-align:center;
+	height: auto;
+	overflow:hidden;
+	img{
+		width: 100%;
+	}
+	h1{
+		font-size: 1.5em;
+		letter-spacing:0.15em;
+	}
+	h4{
+		color: #545859;
+	}
+	p{
+		color: #545859;
+		margin-top:20px;
+		font-size: 1.1em;
+		letter-spacing:0.1em;
+	}
+	.main{
+		float: left;
+		
+	}
+	.box-left{
+		width:30%;
+	}
+	.box-right{
+		width:70%;
+		// text-align:center;
+	}
+}
+
+.starsRating{
+	text-align:center;
+}
+.commentBox{
+	margin: 20px 20% 50px;
+	height: auto;
+	overflow:hidden;
+	textarea{
+		height: 60px;
+		width: 100%;
+		border :none;
+		font-size: 1.1em;
+		letter-spacing:0.1em;
+	}
+	textarea:focus{
+		outline: none;
+		background-color: #EFEFEF;
+		$textarea_color: #EFEFEF; 
+	}
+	.comment{
+		color: #545859;
+		font-size: 1.1em;
+		letter-spacing:0.1em;
+
+	}
+}
+.buttonArea{
+	text-align: center;
+	.btn {
+		margin-right:20px;
+		cursor: pointer;
+		display: inline-block;
+		padding: 0.3em 1em;
+		text-decoration: none;
+		color: #4F6D7A;
+		border: solid 2px #C0D6DF;
+		// border-radius: 3px;
+		transition: .4s;
+		width: 70px;
+		height: 25px;
+		line-height: 25px;
+		text-align: center;
+	}
+	.btn:hover {
+		background: #C0D6DF;
+		color: white;
+	}
+}

@@ -1,0 +1,123 @@
+// button{
+//     background-color: transparent;
+//     border: none;
+//     cursor: pointer;
+//     outline: none;
+//     padding: 0;
+//     appearance: none;
+// }
+
+.loginBody{
+width: 300px;
+margin:0 auto;
+h1{
+text-align:center;
+}
+}
+.snsLogin {
+
+button {
+width: 100%;
+height: 50px;
+padding: 12px;
+border-radius: 4px;
+margin: 5px 0;
+opacity: 0.85;
+display: inline-block;
+font-size: 19px;
+line-height: 20px;
+text-decoration: none; 
+}
+
+button:hover {
+opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.ggl {
+background-color: #fff;
+color: #2f3337;
+border: 1px solid #E8E8E8;
+}
+.fa-google {
+background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+-webkit-text-fill-color: transparent;
+}
+.tw {
+background-color: #55ACEE;
+color: white;
+}
+.fb {
+background-color: #3B5998;
+color: white;
+}
+.gh {
+background-color: #4183c4;
+color: white;
+}
+}
+
+.boder {
+display: flex;
+align-items: center;
+text-align: center; 
+font-size:0.7em;
+color: #BBB5AC;
+margin : 10px 0;
+}
+.boder:before,
+.boder:after {
+border-top: 1px solid;
+border-color: #E8E8E8;
+content: "";
+display: inline; /* for IE */
+flex-grow: 1;
+}
+.boder:before {
+margin-right: 0.5em;
+}
+.boder:after {
+margin-left: 0.5em;
+}
+
+
+.loginEmail {
+input[type=text]{
+width: 100%;
+height: 30px;
+background: transparent;
+border: 1px solid #E8E8E8;
+font-size: 1.0em;
+padding: 4px;
+margin-bottom:1.0em;
+}
+input[type=password]{
+width: 100%;
+height: 30px;
+background: transparent;
+border: 1px solid #E8E8E8;
+font-size: 1.0em;
+padding: 4px;
+margin-bottom:1.0em;
+}
+input[type=submit]{
+background: #f16272;
+border: none;
+color: #fff;
+cursor: pointer;
+width: 100%;
+height: 50px;
+font-size: 1.2em;
+letter-spacing: 0.05em;
+text-align: center;
+text-transform: uppercase;
+// transition: background 0.3s ease-in-out;
+}
+:hover{
+opacity:1;
+transition-duration:0.3s;
+}
+}

@@ -1,0 +1,17 @@
+.body{
+  margin-top: 20px;
+}
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 200px);
+  justify-content: center;
+}
+ul{
+  list-style: none;
+}
+img{
+  object-fit: cover;
+  width: 100%;
+  cursor: pointer;
+}

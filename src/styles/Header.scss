@@ -1,0 +1,41 @@
+
+nav{
+	height:50px;
+	background-color: #DBE9EE;
+	font-family: Bodoni;
+	color:#166088;
+	margin:0;
+	.container {
+		height:50px;
+		width:100%;
+		position: relative;
+	}
+	.header-title{
+		position: absolute;
+		width:100%;
+		cursor: pointer;
+		text-align: center;
+	}
+	.text-link{
+	  color: inherit;
+    text-decoration: inherit;
+	}
+	h2{
+		line-height: 50px;
+		font-size:1.2em;
+	}
+	.header-search{
+		line-height: 50px;
+		position: absolute;
+		right: 15%;
+		cursor: pointer;
+		
+	}
+	.header-signout{
+		line-height: 50px;
+		position: absolute;
+		right: 5%;
+		cursor: pointer;
+	}
+}
+
