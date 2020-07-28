@@ -1,9 +1,11 @@
 
+@use "./font-color";
+
 nav{
 	height:50px;
-	background-color: #DBE9EE;
+	background-color: font-color.$bodyFont;
 	font-family: Bodoni;
-	color:#166088;
+	color:font-color.$mainDarkBlue;
 	margin:0;
 	.container {
 		height:50px;

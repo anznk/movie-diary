@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import '../styles/SearchMovie.scss';
+// import '../styles/SearchMovie.scss';
 
 const SearchMovie = props => {
 	const [fetchedData, setFetchedData] = useState({});

@@ -4,7 +4,7 @@ import firebase from '../firebase/Firebase';
 import { Link } from "react-router-dom";
 // import Edit from "./Edit";
 import ReactStarsRating from 'react-awesome-stars-rating';
-import '../styles/MovieDetail.scss';
+// import '../styles/MovieDetail.scss';
 
 
 const MovieDetail = ({ match, history }) => {

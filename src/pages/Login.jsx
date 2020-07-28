@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import firebase, {providerGoogle, providerTwitter, providerGithub, providerFacebook} from '../firebase/Firebase';
-import '../styles/Login.scss';
+// import '../styles/Login.scss';
 import 'font-awesome/css/font-awesome.min.css'; 
 
 const Login = () => {

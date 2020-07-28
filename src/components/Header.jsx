@@ -1,14 +1,13 @@
 import React from "react";
 import firebase from '../firebase/Firebase';
 import { Link } from "react-router-dom";
-import '../styles/Header.scss';
+// import '../styles/Header.scss';
 const Header = (props) => {
 	const logout = () => {
     firebase.auth().signOut()
   }
   return (
     <>
-		
 		<nav>
 			<div className="container">
 				<div className="header-title">

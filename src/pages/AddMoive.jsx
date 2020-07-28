@@ -3,7 +3,7 @@ import {db} from '../firebase/Firebase';
 import SearchMovie from "../components/SearchMovie"
 import { Link } from "react-router-dom";
 import firebase from '../firebase/Firebase';
-import '../styles/AddMovie.scss';
+// import '../styles/AddMovie.scss';
 
 const AddMovie = ({ history }) => {
 	const [movieSelected, setMovieSelected] = useState();

@@ -1,3 +1,5 @@
+@use "./font-color";
+
 $textarea_color: white; 
 .detailBody{
 	// width: 90%;
@@ -14,10 +16,10 @@ $textarea_color: white;
 		letter-spacing:0.15em;
 	}
 	h4{
-		color: #545859;
+		color: font-color.$subDarkGray;
 	}
 	p{
-		color: #545859;
+		color: font-color.$subDarkGray;
 		margin-top:20px;
 		font-size: 1.1em;
 		letter-spacing:0.1em;
@@ -51,11 +53,11 @@ $textarea_color: white;
 	}
 	textarea:focus{
 		outline: none;
-		background-color: #EFEFEF;
-		$textarea_color: #EFEFEF; 
+		background-color: font-color.$sublightGray;
+		$textarea_color: font-color.$sublightGray;
 	}
 	.comment{
-		color: #545859;
+		color: font-color.$subDarkGray;
 		font-size: 1.1em;
 		letter-spacing:0.1em;
 
@@ -68,9 +70,9 @@ $textarea_color: white;
 		cursor: pointer;
 		display: inline-block;
 		padding: 0.3em 1em;
-		text-decoration: none;
-		color: #4F6D7A;
-		border: solid 2px #C0D6DF;
+		text-decoration: none;	
+		color: font-color.$mainDarkBlue;
+		border: solid 2px font-color.$mainBlue;
 		// border-radius: 3px;
 		transition: .4s;
 		width: 70px;
@@ -79,7 +81,7 @@ $textarea_color: white;
 		text-align: center;
 	}
 	.btn:hover {
-		background: #C0D6DF;
+		background: font-color.$mainBlue;
 		color: white;
 	}
 }

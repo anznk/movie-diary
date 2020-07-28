@@ -8,6 +8,7 @@ import AddMovie from "./pages/AddMoive";
 import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
 import Header from "./components/Header";
+import './styles/common.scss';
 
 
 const App = () => {

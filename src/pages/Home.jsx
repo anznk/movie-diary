@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import {db} from '../firebase/Firebase';
 import firebase from '../firebase/Firebase';
-import '../styles/Home.scss';
+// import '../styles/Home.scss';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
